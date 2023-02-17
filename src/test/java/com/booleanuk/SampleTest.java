@@ -8,4 +8,9 @@ class SampleTest {
     public void shouldSayHelloWorld() {
         Assertions.assertEquals("Hello, world!", Sample.sayHelloWorld());
     }
+
+    @Test
+    public void shouldAnswerTheUltimateQuestion() {
+        Assertions.assertEquals(42, Sample.answerTheUltimateQuestion());
+    }
 }
